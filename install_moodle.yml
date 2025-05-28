@@ -5,3 +5,4 @@
   roles:
     - base
     - apache2
+    - php
