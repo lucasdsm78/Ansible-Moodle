@@ -7,15 +7,15 @@
 
 ## Architecture
 
-Le déploiement utilise deux serveurs distincts:
-- **web** : Serveur Apache + PHP hébergeant l'application Moodle
-- **db** : Serveur MySQL dédié à la base de données
+The deployment uses two separate servers:
+- **web** : Apache + PHP server hosting the Moodle application
+- **db** : MySQL server dedicated to the database
 
-### Fichiers importants
-- `hosts` : Définit les serveurs cibles pour Ansible
-- `vault/vault.yml` : Contient les informations sensibles (mots de passe, etc.)
-- `playbooks/` : Contient les playbooks pour installer Moodle et MySQL
-- `roles/` : Contient les rôles personnalisés pour Moodle
+### Important files
+- `hosts` : Defines target servers for Ansible
+- `vault/vault.yml` : Contains sensitive information (passwords, etc.)
+- `playbooks/` : Contains playbooks for installing Moodle and MySQL
+- `roles/` : Contains custom roles for Moodle
 
 ## Installation of Moodle using Ansible
 
