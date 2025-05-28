@@ -42,3 +42,5 @@ Then, run :
 ```bash
 vagrant up
 ```
+
+To install Moodle via the UI, you should go to http://192.168.56.10/moodle
