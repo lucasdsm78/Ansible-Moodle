@@ -1,0 +1,16 @@
+mysql_databases:
+  - name: "{{ vault_moodle_db_name }}"
+    encoding: utf8mb4
+mysql_users:
+  - name: "{{ vault_moodle_db_user }}"
+    host: "{{ vault_moodle_db_host }}"
+    password: "{{ vault_moodle_db_password: }}"
+    priv: "moodle.*:ALL"
+mysql_bind_address: "0.0.0.0"
+mysql_enabled_on_startup: true
+mysql_secure_installation: true
+mysql_remove_anonymous_users: true
+mysql_remove_remote_root: true
+mysql_disallow_remote_root: true
+mysql_root_password_update: true
+mysql_remove_test_db: true

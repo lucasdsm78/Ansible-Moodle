@@ -1,0 +1,11 @@
+- name: Install Moodle
+  hosts: web
+  become: yes
+  vars_files:
+    - ../vault/vault.yml
+
+  roles:
+    - ../roles/base
+    - ../roles/apache2
+    - ../roles/php
+    - ../roles/moodle

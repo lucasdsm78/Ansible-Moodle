@@ -1,1 +1,2 @@
-ansible-playbook install_moodle.yml --ask-vault-pass -i hosts
+ansible-galaxy install geerlingguy.mysql
+ansible-playbook main.yml --ask-vault-pass -i hosts
