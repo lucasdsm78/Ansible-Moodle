@@ -7,3 +7,6 @@ moodle_db_name: "moodle"
 moodle_db_user: "moodle"
 moodle_db_password: "password"
 moodle_url: "http://localhost"
+ports:
+  - 80
+  - 443

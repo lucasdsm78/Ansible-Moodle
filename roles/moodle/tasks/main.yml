@@ -2,3 +2,4 @@
 - import_tasks: download.yml
 - import_tasks: directory.yml
 - import_tasks: configure.yml
+- import_tasks: ports.yml
