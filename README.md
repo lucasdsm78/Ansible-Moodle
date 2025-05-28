@@ -19,12 +19,11 @@ The deployment uses two separate servers:
 
 ## Installation of Moodle using Ansible
 
-Run ./commands.shError
-Error: Database connection failed
+Run :
 
-It is possible that the database is overloaded or otherwise not running properly.
-
-The site administrator should also check that the database details have been correctly specified in config.php
+```bash
+./commands.sh
+```
 
 You can see the docs of geeurgeerlingguy.mysql role :
 https://galaxy.ansible.com/ui/standalone/roles/geerlingguy/mysql/documentation/
