@@ -1,0 +1,6 @@
+---
+moodle_db_host: "{{ vault_moodle_db_host }}"
+moodle_db_name: "{{ vault_moodle_db_name }}"
+moodle_db_user: "{{ vault_moodle_db_user }}"
+moodle_db_password: "{{ vault_moodle_db_password }}"
+moodle_url: "{{ vault_moodle_url }}"

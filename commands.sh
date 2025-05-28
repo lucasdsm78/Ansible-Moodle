@@ -1,1 +1,1 @@
-ansible-playbook  -i hosts install_moodle.yml
+ansible-playbook install_moodle.yml --ask-vault-pass -i hosts
