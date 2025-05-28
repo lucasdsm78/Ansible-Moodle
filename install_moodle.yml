@@ -1,0 +1,6 @@
+- name: Install Moodle
+  hosts: web
+  become: yes
+
+  roles:
+    - base

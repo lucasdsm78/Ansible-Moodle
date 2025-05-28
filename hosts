@@ -1,0 +1,5 @@
+[web]
+web ansible_host=51.15.229.41 ansible_user=root
+
+[db]
+db ansible_host=51.15.201.156 ansible_user=root

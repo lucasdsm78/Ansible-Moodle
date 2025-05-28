@@ -1,0 +1,7 @@
+---
+- name: Update repositories cache and install "curl" package
+  apt:
+    name: "{{ item }}"
+    update_cache: yes
+  loop: 
+  - "{{ packages }}"
