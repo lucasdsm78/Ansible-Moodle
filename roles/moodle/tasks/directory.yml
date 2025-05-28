@@ -12,4 +12,14 @@
     state: directory
     owner: www-data
     group: www-data
+    mode: '0770'
+    recurse: yes
+
+- name: Set permissions on /var/www/moodledata
+  file:
+    path: /var/www/moodledata
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: '0770'
     recurse: yes

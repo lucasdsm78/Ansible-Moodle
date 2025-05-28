@@ -1,7 +1,7 @@
 ---
 moodle_version: "MOODLE_401_STABLE"
-moodle_data_dir: "/var/moodledata"
-# Ces variables seront remplacées par celles du vault
+moodle_data_dir: "/var/www/moodledata"
+# These variables will be replaced in the vault file
 moodle_db_host: "localhost"
 moodle_db_name: "moodle"
 moodle_db_user: "moodle"
