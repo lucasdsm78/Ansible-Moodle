@@ -1,0 +1,14 @@
+---
+- name: Copy Apache2 configuration file
+  copy:
+    src: files/apache2.conf
+    dest: "{{ apache_conf_path }}"
+  notify:
+    - restart_apache2
+
+- name: Copy index.html file
+  copy:
+    src: files/index.html
+    dest: "{{ apache_www_path }}"
+  notify:
+    - restart_apache2
