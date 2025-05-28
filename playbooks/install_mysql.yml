@@ -8,3 +8,10 @@
 
   roles:
     - geerlingguy.mysql
+
+  tasks:
+    - name: Open port for MySQL
+      ufw:
+        rule: allow
+        port: "3306"
+        proto: tcp
