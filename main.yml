@@ -1,0 +1,3 @@
+---
+- import_playbook: playbooks/install_moodle.yml
+- import_playbook: playbooks/install_mysql.yml
